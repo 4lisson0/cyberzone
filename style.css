@@ -1,0 +1,182 @@
+@font-face {
+  font-family: cyberpunk-font;
+  src: url("/public/Cyberpunk/Cyberpunk-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #005678;
+  align-items: center;
+}
+
+.img-artigo {
+  width: 29em;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-top: 100px solid #01012b;
+  border-bottom: 40px solid #abc1ec;
+  border-radius: 15px;
+}
+
+img {
+  width: 20em;
+}
+
+header {
+  background: #01012b;
+  width: 100%;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffff;
+  width: 1100px;
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 20em;
+  margin-bottom: 10em;
+  border-top: 50px solid #01012b;
+}
+
+ul:first-of-type {
+  display: flex;
+  list-style: none;
+  font-family: cyberpunk-font;
+  font-size: 25px;
+  text-decoration: none;
+  justify-content: space-around;
+  width: 100%;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: #d1f7ff;
+}
+
+.header a:hover,
+footer a:hover {
+  color: #05d9e8;
+}
+
+a:hover {
+  color: #01012b;
+}
+
+.home-noticias,
+.home-games {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+article {
+  font-family: monospace;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.first-article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-top: 60px;
+}
+
+.img-first-article {
+  width: 50em;
+}
+
+.h2-first-article {
+  top: 0;
+}
+
+.container-first-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background: #01012b;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #05d9e8;
+  border: #05d9e8;
+}
+
+h2 {
+  position: relative;
+  top: 105px;
+  padding: 12px;
+}
+
+.a-article {
+  position: relative;
+  bottom: 27px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 10px;
+  padding: 30px 0px;
+  background-color: #01012b;
+  font-family: monospace;
+  color: aliceblue;
+}
+
+.background-page {
+  position: absolute;
+  top: 133px;
+  width: 100%;
+  z-index: -1;
+}
+
+.divider {
+  width: 71em;
+  padding: 40px;
+}
+
+p{
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+}
+
