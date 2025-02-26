@@ -11,50 +11,38 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #005678;
   align-items: center;
+  background-color: #282828;
 }
 
-.img-artigo {
-  width: 29em;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-top: 100px solid #01012b;
-  border-bottom: 40px solid #abc1ec;
-  border-radius: 15px;
-}
-
-img {
-  width: 20em;
+.img-logo {
+  width: 40em;
 }
 
 header {
   background: #01012b;
   width: 100%;
-  height: 132px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffff;
   width: 1100px;
   padding: 50px;
   border-radius: 15px;
-  margin-top: 20em;
-  margin-bottom: 10em;
-  border-top: 50px solid #01012b;
+  margin: 5em;
 }
 
 ul:first-of-type {
   display: flex;
   list-style: none;
-  font-family: cyberpunk-font;
+  font-family: monospace;
   font-size: 25px;
   text-decoration: none;
   justify-content: space-around;
@@ -72,20 +60,16 @@ footer a:hover {
   color: #05d9e8;
 }
 
-a:hover {
-  color: #01012b;
-}
-
-.home-noticias,
-.home-games {
+.home-noticias {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: flex-start;
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin: 70px 0px;
 }
 
 h1 {
   font-family: monospace;
+  padding: 20px;
 }
 
 article {
@@ -97,50 +81,27 @@ article {
   color: aliceblue;
 }
 
-.first-article {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  padding-top: 60px;
-}
-
-.img-first-article {
-  width: 50em;
-}
-
-.h2-first-article {
-  top: 0;
-}
-
-.container-first-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 button {
-  width: 120px;
-  height: 40px;
-  background: #01012b;
-  border-radius: 10px;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
 }
 
 button:hover {
-  background-color: #05d9e8;
-  border: #05d9e8;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-h2 {
-  position: relative;
-  top: 105px;
-  padding: 12px;
-}
-
-.a-article {
-  position: relative;
-  bottom: 27px;
+button:active {
+  transform: translate(0em, 0.2em);
 }
 
 footer {
@@ -148,35 +109,101 @@ footer {
   justify-content: space-around;
   width: 100%;
   font-size: 10px;
-  padding: 30px 0px;
+  padding: 60px 0px;
   background-color: #01012b;
   font-family: monospace;
   color: aliceblue;
 }
 
-.background-page {
-  position: absolute;
-  top: 133px;
-  width: 100%;
-  z-index: -1;
+h1,
+h2 {
+  color: aliceblue;
+  font-family: monospace;
 }
 
-.divider {
-  width: 71em;
-  padding: 40px;
-}
-
-p{
+p {
   font-family: monospace;
   font-size: 20px;
+  color: aliceblue;
 }
 
-.fit-cover {
+.card-first-article {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.anime-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px 40px;
+  grid-template-areas:
+    "img img destaques"
+    "texto texto destaques"
+    "texto texto destaques";
+}
+
+.div1 {
+  grid-area: img;
+}
+
+.div2 {
+  grid-area: texto;
+}
+
+.div3 {
+  grid-area: destaques;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
+  border: 1px solid #ff2a6d;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.h1-container {
+  display: flex;
+  justify-content: center;
+}
+
+.h1-container h1 {
+  color: #ff2a6d;
+}
+
+.card {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
   object-fit: cover;
+  aspect-ratio: 16 / 9;
 }
 
-.text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+.category {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: aliceblue;
+  padding: 10px 7px 0;
 }
 
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 30px;
+  font-weight: 600;
+  color: aliceblue;
+}
