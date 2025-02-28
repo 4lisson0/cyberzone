@@ -207,3 +207,70 @@ p {
   font-weight: 600;
   color: aliceblue;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-first-article{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-noticias {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card{
+    padding: 0;
+  }
+
+  .card-image img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .category {
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  .anime-container{
+    display: flex;
+  }
+
+  .div2{
+    padding: 45px;
+  }
+}
