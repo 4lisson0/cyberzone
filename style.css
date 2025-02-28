@@ -119,6 +119,7 @@ h1,
 h2 {
   color: aliceblue;
   font-family: monospace;
+  text-align: center;
 }
 
 p {
@@ -214,7 +215,7 @@ p {
     align-items: center;
   }
 
-  .card-first-article{
+  .card-first-article {
     display: flex;
     flex-direction: column;
   }
@@ -224,6 +225,8 @@ p {
   }
 
   main {
+    display: flex;
+    align-items: normal;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -235,7 +238,7 @@ p {
     padding: 20px;
   }
 
-  .card{
+  .card {
     padding: 0;
   }
 
@@ -262,15 +265,15 @@ p {
     gap: 10px;
   }
 
-  p{
+  p {
     font-size: 17px;
   }
 
-  .anime-container{
+  .anime-container {
     display: flex;
   }
 
-  .div2{
+  .div2 {
     padding: 45px;
   }
 }
