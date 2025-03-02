@@ -5,24 +5,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="../public/icon.svg" />
+  <script src="../js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="../style.css" />
-  <title>CyberZone - Home</title>
+  <title>CyberZone - Anime</title>
 </head>
 
 <body>
-  <header class="header">
-    <img src="../public/logo.svg" alt="logo" class="img-logo" />
-    <ul>
-      <li><a href="../">Home</li></a>
-      <li><a href="../routers/animes.html">Animes</li></a>
-      <li><a href="../routers/games.html">Jogos</li></a>
-    </ul>
-  </header>
+  <nav class="navbar navbar-expand-md text-primary text-center py-3" style="
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+  ">
+    <div class="container">
+      <img class="img-logo" src="../public/logo.svg" width="870" /><a class="navbar-brand" href="#"></a><button
+        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5" style="background: dodgerblue">
+        <img src="../public/cardapio (1).png" alt="" />
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-5">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../routers/animes.html">Animes</a>
+          </li>
+          <li class="nav-item" style="font-size: 30px">
+            <a href="../routers/games.html">Games</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
     <h1>GAMES</h1>
     <article>
       <div class="card-first-article">
-        <div class="card-image"><img src="../public/games/devil-may-cry.jpg" alt="solo-leveling"  />
+        <div class="card-image"><img src="../public/games/devil-may-cry.jpg" alt="solo-leveling" />
         </div>
         <div class="heading">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
@@ -35,8 +56,8 @@
       <article>
         <div class="card">
           <div class="card-image"><img
-              src="../public/games/elden_ring_nightreign_teste_de_rede_instabilidade__0r05xpt2s.jpg" alt="solo-leveling"
-               /></div>
+              src="../public/games/elden_ring_nightreign_teste_de_rede_instabilidade__0r05xpt2s.jpg"
+              alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"> <button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
@@ -47,7 +68,7 @@
         <div class="card">
           <div class="card-image"><img
               src="../public/games/marvel_rivals_cancela_mudanca_modo_competitivo_apos_criticas__xb981agp.jpg"
-              alt="solo-leveling"  /></div>
+              alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"><button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
@@ -58,7 +79,7 @@
         <div class="card">
           <div class="card-image"><img
               src="../public/games/Path-of-Exile-2-continua-hardcore-mas-se-tornou-mais-facil-de-entender-912x569.webp"
-              alt="solo-leveling"  /></div>
+              alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"><button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
@@ -68,7 +89,7 @@
       <article>
         <div class="card">
           <div class="card-image"><img src="../public/games/silksong_hollow_knight_tudo_que_sabemos__182m7r4s.jpg"
-              alt="solo-leveling"  /></div>
+              alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"> <button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
@@ -77,8 +98,7 @@
       </article>
       <article>
         <div class="card">
-          <div class="card-image"><img src="../public/games/monster-hunter-wilds.webp" alt="solo-leveling"
-               /></div>
+          <div class="card-image"><img src="../public/games/monster-hunter-wilds.webp" alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"><button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
@@ -89,7 +109,7 @@
         <div class="card">
           <div class="card-image"><img
               src="../public/games/Valve-bane-jogos-que-obrigam-jogadores-a-assistir-a-anuncios-publicitarios-na-Steam-750x375.jpg"
-              alt="solo-leveling"  /></div>
+              alt="solo-leveling" /></div>
           <div class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus purus at sem
             suscipit</div>
           <div class="heading"><button><a href="../routers/game.html" aria-label="Leia mais sobre Bartender">Leia
