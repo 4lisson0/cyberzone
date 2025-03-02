@@ -120,14 +120,13 @@ footer {
 }
 
 h1,
-h2 {
+h2, p {
   color: aliceblue;
   font-family: monospace;
   text-align: center;
 }
 
 p {
-  font-family: monospace;
   font-size: 20px;
 }
 
@@ -267,7 +266,7 @@ p {
     display: flex;
     align-items: normal;
     width: 100%;
-    padding: 0;
+    padding: 20px;
     margin: 0;
   }
 
@@ -307,14 +306,11 @@ p {
   p {
     font-size: 17px;
     text-align: center;
+    color: aliceblue;
   }
 
   .anime-container {
     display: flex;
-  }
-
-  .div2 {
-    padding: 45px;
   }
 
   .img-logo {
