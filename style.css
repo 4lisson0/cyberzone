@@ -214,6 +214,10 @@ p {
   color: aliceblue;
 }
 
+.container{
+  gap: 10px;
+}
+
 *::-webkit-scrollbar {
   height: 7px;
   width: 7px;
@@ -315,5 +319,9 @@ p {
 
   .img-logo {
     width: 75%;
+  }
+
+  ul:first-of-type {
+    font-size: 15px;
   }
 }
