@@ -22,7 +22,7 @@ Como estudante da Guilda de Desenvolvedores Geek, fui convocado para criar um po
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/Tvaqk1qFZviTJF7qqLXepM/CyberZone?m=auto&t=aqLf0spbl6nppp7n-6). É necessário ter conta no [Figma](https://figma.com) para acessá-lo. OBS. fiz algumas alterações no figma, pois as imagens usadas são do jogo de 2018.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/Tvaqk1qFZviTJF7qqLXepM/CyberZone?m=auto&t=aqLf0spbl6nppp7n-6). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
