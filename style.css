@@ -70,11 +70,6 @@ footer a:hover {
   margin: 70px 0px;
 }
 
-h1 {
-  font-family: monospace;
-  padding: 20px;
-}
-
 article {
   font-family: monospace;
   width: 100%;
@@ -120,14 +115,10 @@ footer {
 }
 
 h1,
-h2, p {
+h2, p, h5 {
   color: aliceblue;
   font-family: monospace;
   text-align: center;
-}
-
-p {
-  font-size: 20px;
 }
 
 .card-first-article {
@@ -143,7 +134,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 40px 40px;
+  gap: 0px 40px;
   grid-template-areas:
     "img img destaques"
     "texto texto destaques"
@@ -197,8 +188,6 @@ p {
 }
 
 .category {
-  text-transform: uppercase;
-  font-weight: 600;
   color: aliceblue;
   padding: 10px 7px 0;
 }
@@ -215,6 +204,29 @@ p {
 
 .container{
   gap: 10px;
+}
+
+footer p{
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card .category,
+.card .heading {
+  flex: 1;
+}
+
+.limited-text {
+  max-height: 4.5em; /* Ajuste conforme necessário */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
 }
 
 *::-webkit-scrollbar {
