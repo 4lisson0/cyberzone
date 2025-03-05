@@ -39,6 +39,10 @@ main {
   margin: 5em;
 }
 
+main h1{
+  padding: 40px;
+}
+
 ul:first-of-type {
   display: flex;
   list-style: none;
