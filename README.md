@@ -4,7 +4,7 @@
 ## Screenshots
 
 <p align="center">
-  <img alt="" src="public/img-readme.png" width="100%">
+  <img alt="" src="images/img-readme.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
