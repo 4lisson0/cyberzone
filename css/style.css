@@ -13,8 +13,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #282828;
+  transition: opacity 0.5s ease-in-out;
 }
 
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
 .img-logo {
   width: 50%;
 }
@@ -39,7 +44,7 @@ main {
   margin: 5em;
 }
 
-main h1{
+main h1 {
   padding: 40px;
 }
 
@@ -119,7 +124,9 @@ footer {
 }
 
 h1,
-h2, p, h5 {
+h2,
+p,
+h5 {
   color: aliceblue;
   font-family: monospace;
   text-align: center;
@@ -206,11 +213,11 @@ h2, p, h5 {
   color: aliceblue;
 }
 
-.container{
+.container {
   gap: 10px;
 }
 
-footer p{
+footer p {
   font-size: 15px;
 }
 

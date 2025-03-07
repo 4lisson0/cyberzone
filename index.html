@@ -1,435 +1,335 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/public/icon.svg" />
-    <script src="js/bootstrap.min.js"></script>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>CyberZone - Anime</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/icon.svg" />
+  <script src="js/bootstrap.min.js"></script>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-md text-primary text-center py-3"
-      style="
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>CyberZone - Anime</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md text-primary text-center py-3" style="
         height: 200px;
         display: flex;
         justify-content: space-around;
         padding: 0px 20px;
-      "
-    >
-      <div class="container">
-        <img class="img-logo" src="public/logo.svg" /><a
-          class="navbar-brand"
-          href="#"
-        ></a
-        ><button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-5"
-          style="background: dodgerblue"
-        >
-          <img src="public/cardapio (1).png" alt="" />
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-5">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="routers/animes.html">Animes</a>
-            </li>
-            <li class="nav-item">
-              <a href="routers/games.html">Games</a>
-            </li>
-          </ul>
+      ">
+    <div class="container">
+      <img class="img-logo" src="images/logo.svg" /><a class="navbar-brand" href="#"></a><button
+        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5" style="background: dodgerblue">
+        <img src="images/cardapio (1).png" alt="" />
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-5">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/animes.html">Animes</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/games.html">Games</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <h1>ANIMES</h1>
+    <article>
+      <div class="card-first-article">
+        <div class="card-image">
+          <img src="images/animes/sololeveling.png" alt="Imagem do anime Solo Leveling" />
+        </div>
+        <div class="heading">
+          <h2>Solo Leveling</h2>
+          <p class="limited-text">
+            Novo trailer da 2ª temporada prepara arco da Ilha Jeju
+          </p>
+          <button>
+            <a href="pages/anime.html" aria-label="Leia mais sobre Solo Leveling">Leia mais</a>
+          </button>
         </div>
       </div>
-    </nav>
-    <main>
-      <h1>ANIMES</h1>
+    </article>
+    <div class="home-noticias">
       <article>
-        <div class="card-first-article">
+        <div class="card">
           <div class="card-image">
-            <img
-              src="public/animes/sololeveling.png"
-              alt="Imagem do anime Solo Leveling"
-            />
+            <img src="images/animes/bocchi.png" alt="Imagem do anime Bocchi" />
           </div>
-          <div class="heading">
-            <h2>Solo Leveling</h2>
+          <div class="category">
+            <h5>Bocchi The Rock!</h5>
             <p class="limited-text">
-              Novo trailer da 2ª temporada prepara arco da Ilha Jeju
+              2º filme de recapitulação de BOCCHI THE ROCK! ganha novo trailer
             </p>
-            <button>
-              <a
-                href="routers/anime.html"
-                aria-label="Leia mais sobre Solo Leveling"
-                >Leia mais</a
-              >
-            </button>
-          </div>
-        </div>
-      </article>
-      <div class="home-noticias">
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/bocchi.png"
-                alt="Imagem do anime Bocchi"
-              />
-            </div>
-            <div class="category">
-              <h5>Bocchi The Rock!</h5>
-              <p class="limited-text">
-                2º filme de recapitulação de BOCCHI THE ROCK! ganha novo trailer
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a href="routers/anime.html" aria-label="Leia mais sobre Bocchi"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/bartender1.jpg"
-                alt="Imagem do anime Bartender"
-              />
-            </div>
-            <div class="category">
-              <h5>Bartender Glass of God</h5>
-              <p class="limited-text">
-                Bartender Glass of God divulga novo trailer e confirma data de
-                estreia
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/anime.html"
-                  aria-label="Leia mais sobre Bartender"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/demon-slayer.png"
-                alt="Imagem do anime Demon Slayer"
-              />
-            </div>
-            <div class="category">
-              <h5>Demon Slayer</h5>
-              <p class="limited-text">
-                Demon Slayer ganhará uma versão especial do Arco Distrito da Luz
-                Vermelha no Japão
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/anime.html"
-                  aria-label="Leia mais sobre Demon Slayer"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/demon-slayer.webp"
-                alt="Imagem do anime Demon Slayer"
-              />
-            </div>
-            <div class="category">
-              <h5>Demon Slayer</h5>
-              <p class="limited-text">
-                Trilogia de filmes Demon Slayer: Kimetsu no Yaiba Castelo
-                Infinito é anunciada
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/anime.html"
-                  aria-label="Leia mais sobre Demon Slayer"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/Jujutsu-Kaisen-Qual-sera-a-data-de-lancamento-da-terceira-temporada.jpg"
-                alt="Imagem do anime Jujutsu Kaisen"
-              />
-            </div>
-            <div class="category">
-              <h5>Jujutsu Kaisen</h5>
-              <p class="limited-text">
-                Criador de Jujutsu Kaisen admite qual foi o maior problema...
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/anime.html"
-                  aria-label="Leia mais sobre Jujutsu Kaisen"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/animes/AAAABZClJixOJ7pbXWNBv2VDAjxgW82JL0mGZj0zCu_cyw41C8ay306uajKgF2vOcylnHC19UDobva2UFPI_QnhZaJSfmJ6l1opU42fV.jpg"
-                alt="Imagem do anime"
-              />
-            </div>
-            <div class="category">
-              <h5>Sakamoto Days</h5>
-              <p class="limited-text">
-                Sakamoto Days, Episódio 9: Data de estreia e hora de lançamento
-                na Netflix
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/anime.html"
-                  aria-label="Leia mais sobre o anime"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <img src="public/divider.svg" alt="Divisor de seção" />
-
-      <h1>GAMES</h1>
-
-      <article>
-        <div class="card-first-article">
-          <div class="card-image">
-            <img
-              src="public/games/devil-may-cry.jpg"
-              alt="Imagem do jogo Devil May Cry"
-            />
           </div>
           <div class="heading">
-            <h5 class="limited-text">
-              Devil May Cry 5 ultrapassa 10 milhões de unidades vendidas
-            </h5>
             <button>
-              <a
-                href="routers/game.html"
-                aria-label="Leia mais sobre Devil May Cry"
-                >Leia mais</a
-              >
+              <a href="pages/anime.html" aria-label="Leia mais sobre Bocchi">Leia mais</a>
             </button>
           </div>
         </div>
       </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/animes/bartender1.jpg" alt="Imagem do anime Bartender" />
+          </div>
+          <div class="category">
+            <h5>Bartender Glass of God</h5>
+            <p class="limited-text">
+              Bartender Glass of God divulga novo trailer e confirma data de
+              estreia
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/anime.html" aria-label="Leia mais sobre Bartender">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/animes/demon-slayer.png" alt="Imagem do anime Demon Slayer" />
+          </div>
+          <div class="category">
+            <h5>Demon Slayer</h5>
+            <p class="limited-text">
+              Demon Slayer ganhará uma versão especial do Arco Distrito da Luz
+              Vermelha no Japão
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/anime.html" aria-label="Leia mais sobre Demon Slayer">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/animes/demon-slayer.webp" alt="Imagem do anime Demon Slayer" />
+          </div>
+          <div class="category">
+            <h5>Demon Slayer</h5>
+            <p class="limited-text">
+              Trilogia de filmes Demon Slayer: Kimetsu no Yaiba Castelo
+              Infinito é anunciada
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/anime.html" aria-label="Leia mais sobre Demon Slayer">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/animes/Jujutsu-Kaisen-Qual-sera-a-data-de-lancamento-da-terceira-temporada.jpg"
+              alt="Imagem do anime Jujutsu Kaisen" />
+          </div>
+          <div class="category">
+            <h5>Jujutsu Kaisen</h5>
+            <p class="limited-text">
+              Criador de Jujutsu Kaisen admite qual foi o maior problema...
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/anime.html" aria-label="Leia mais sobre Jujutsu Kaisen">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="images/animes/AAAABZClJixOJ7pbXWNBv2VDAjxgW82JL0mGZj0zCu_cyw41C8ay306uajKgF2vOcylnHC19UDobva2UFPI_QnhZaJSfmJ6l1opU42fV.jpg"
+              alt="Imagem do anime" />
+          </div>
+          <div class="category">
+            <h5>Sakamoto Days</h5>
+            <p class="limited-text">
+              Sakamoto Days, Episódio 9: Data de estreia e hora de lançamento
+              na Netflix
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/anime.html" aria-label="Leia mais sobre o anime">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
 
-      <div class="home-noticias">
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/elden_ring_nightreign_teste_de_rede_instabilidade__0r05xpt2s.jpg"
-                alt="Imagem do jogo Elden Ring"
-              />
-            </div>
-            <div class="category">
-              <h5>Elden Ring Nightreign</h5>
-              <p class="limited-text">
-                Elden Ring Nightreign pegou a todos de surpresa pela sua
-                abordagem diferenciada em relação aos jogos da franquia
-                Soulsborne.
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Elden Ring"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/marvel_rivals_cancela_mudanca_modo_competitivo_apos_criticas__xb981agp.jpg"
-                alt="Imagem do jogo Marvel Rivals"
-              />
-            </div>
-            <div class="category">
-              <h5>Marvel Rivals</h5>
-              <p class="limited-text">
-                A NetEase Games, publicadora de Marvel Rivals, confirmou que
-                ocorreram cortes na equipe sediada em Seattle.
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Marvel Rivals"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/Path-of-Exile-2-continua-hardcore-mas-se-tornou-mais-facil-de-entender-912x569.webp"
-                alt="Imagem do jogo Path of Exile 2"
-              />
-            </div>
-            <div class="category">
-              <h5>Path Exile 2</h5>
-              <p class="limited-text">
-                A Grinding Gear Games revelou, na última quinta-feira (21), mais
-                detalhes do Acesso Antecipado de Path of Exile 2.
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Path of Exile 2"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/silksong_hollow_knight_tudo_que_sabemos__182m7r4s.jpg"
-                alt="Imagem do jogo Hollow Knight Silksong"
-              />
-            </div>
-            <div class="category">
-              <h5>Silksong</h5>
-              <p class="limited-text">
-                Tudo o que sabemos sobre Silksong, a sequência de Hollow Knight
-                Jogo terá Hornet como protagonista, um reino completamente novo
-                e mais chefes
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Hollow Knight Silksong"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/monster-hunter-wilds.webp"
-                alt="Imagem do jogo Monster Hunter Wilds"
-              />
-            </div>
-            <div class="category">
-              <h5>Monster Hunter Wilds</h5>
-              <p class="limited-text">
-                Vendeu mais de 8 milhões de cópias em três dias e já deixou sua
-                marca na história da Capcomendeu mais de 8 milhões de cópias em
-                três dias e já deixou sua marca na história da Capcom
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Monster Hunter Wilds"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="public/games/Valve-bane-jogos-que-obrigam-jogadores-a-assistir-a-anuncios-publicitarios-na-Steam-750x375.jpg"
-                alt="Imagem do jogo Valve Bane"
-              />
-            </div>
-            <div class="category">
-              <h5>Steam</h5>
-              <p class="limited-text">
-                Plataforma de distribuição digital da Valve, continua a expandir
-                sua presença no mercado de jogos para PC. Recentemente, a
-                plataforma atingiu um novo marco ao registrar 40,2 milhões de
-                usuários conectados simultaneamente.
-              </p>
-            </div>
-            <div class="heading">
-              <button>
-                <a
-                  href="routers/game.html"
-                  aria-label="Leia mais sobre Valve Bane"
-                  >Leia mais</a
-                >
-              </button>
-            </div>
-          </div>
-        </article>
+    <img src="images/divider.svg" alt="Divisor de seção" />
+
+    <h1>GAMES</h1>
+
+    <article>
+      <div class="card-first-article">
+        <div class="card-image">
+          <img src="images/games/devil-may-cry.jpg" alt="Imagem do jogo Devil May Cry" />
+        </div>
+        <div class="heading">
+          <h5 class="limited-text">
+            Devil May Cry 5 ultrapassa 10 milhões de unidades vendidas
+          </h5>
+          <button>
+            <a href="pages/game.html" aria-label="Leia mais sobre Devil May Cry">Leia mais</a>
+          </button>
+        </div>
       </div>
-    </main>
-    <footer>
-      <p>&copy; 2025 CyberZone. Todos os direitos reservados.</p>
-      <p><a href="contact.html">Fale Conosco</a></p>
-      <p><a href="submit-news.html">Envie sua notícia</a></p>
-      <p><a href="privacy-policy.html">Política de Privacidade</a></p>
-    </footer>
-  </body>
+    </article>
+
+    <div class="home-noticias">
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/games/elden_ring_nightreign_teste_de_rede_instabilidade__0r05xpt2s.jpg"
+              alt="Imagem do jogo Elden Ring" />
+          </div>
+          <div class="category">
+            <h5>Elden Ring Nightreign</h5>
+            <p class="limited-text">
+              Elden Ring Nightreign pegou a todos de surpresa pela sua
+              abordagem diferenciada em relação aos jogos da franquia
+              Soulsborne.
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Elden Ring">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/games/marvel_rivals_cancela_mudanca_modo_competitivo_apos_criticas__xb981agp.jpg"
+              alt="Imagem do jogo Marvel Rivals" />
+          </div>
+          <div class="category">
+            <h5>Marvel Rivals</h5>
+            <p class="limited-text">
+              A NetEase Games, imagesadora de Marvel Rivals, confirmou que
+              ocorreram cortes na equipe sediada em Seattle.
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Marvel Rivals">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/games/Path-of-Exile-2-continua-hardcore-mas-se-tornou-mais-facil-de-entender-912x569.webp"
+              alt="Imagem do jogo Path of Exile 2" />
+          </div>
+          <div class="category">
+            <h5>Path Exile 2</h5>
+            <p class="limited-text">
+              A Grinding Gear Games revelou, na última quinta-feira (21), mais
+              detalhes do Acesso Antecipado de Path of Exile 2.
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Path of Exile 2">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/games/silksong_hollow_knight_tudo_que_sabemos__182m7r4s.jpg"
+              alt="Imagem do jogo Hollow Knight Silksong" />
+          </div>
+          <div class="category">
+            <h5>Silksong</h5>
+            <p class="limited-text">
+              Tudo o que sabemos sobre Silksong, a sequência de Hollow Knight
+              Jogo terá Hornet como protagonista, um reino completamente novo
+              e mais chefes
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Hollow Knight Silksong">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/games/monster-hunter-wilds.webp" alt="Imagem do jogo Monster Hunter Wilds" />
+          </div>
+          <div class="category">
+            <h5>Monster Hunter Wilds</h5>
+            <p class="limited-text">
+              Vendeu mais de 8 milhões de cópias em três dias e já deixou sua
+              marca na história da Capcomendeu mais de 8 milhões de cópias em
+              três dias e já deixou sua marca na história da Capcom
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Monster Hunter Wilds">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="images/games/Valve-bane-jogos-que-obrigam-jogadores-a-assistir-a-anuncios-publicitarios-na-Steam-750x375.jpg"
+              alt="Imagem do jogo Valve Bane" />
+          </div>
+          <div class="category">
+            <h5>Steam</h5>
+            <p class="limited-text">
+              Plataforma de distribuição digital da Valve, continua a expandir
+              sua presença no mercado de jogos para PC. Recentemente, a
+              plataforma atingiu um novo marco ao registrar 40,2 milhões de
+              usuários conectados simultaneamente.
+            </p>
+          </div>
+          <div class="heading">
+            <button>
+              <a href="pages/game.html" aria-label="Leia mais sobre Valve Bane">Leia mais</a>
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 CyberZone. All rights reserved.</p>
+    <p><a href="">Fale Conosco</a></p>
+    <p><a href="">Envie sua noticia</a></p>
+    <p><a href="">Política de Privacidade</a></p>
+  </footer>
+</body>
+
 </html>
