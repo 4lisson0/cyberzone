@@ -132,6 +132,10 @@ h5 {
   text-align: center;
 }
 
+h2{
+  margin-top: 20px;
+}
+
 .card-first-article {
   display: flex;
   align-items: center;
