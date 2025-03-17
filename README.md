@@ -1,7 +1,6 @@
 
 ## Projeto HTML, CSS, JS Multiverso-News
 
-About
 Como estudante da Guilda de Desenvolvedores Geek, fui convocado para criar um portal de notícias geek. Este espaço será um refúgio para os aventureiros da cultura nerd, com informações sobre o multiverso. Usarei HTML, CSS, SEO e acessibilidade para garantir um site funcional e inesquecível. Vamos à jornada!
 
 
