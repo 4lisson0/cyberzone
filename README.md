@@ -10,7 +10,9 @@ Como estudante da Guilda de Desenvolvedores Geek, fui convocado para criar um po
   <img alt="" src="images/img-readme.png" width="100%">
 </p>
 
-## Link do projeto publicado: https://4lisson0.github.io/cyberzone/
+## Link do projeto publicado
+
+<p>https://4lisson0.github.io/cyberzone/</p>
 
 ## 🚀 Tecnologias
 
