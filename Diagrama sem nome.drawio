@@ -497,6 +497,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-22" value="PRODUTOS&lt;div&gt;MAIOR VALOR&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-24" value="PRODUTOS EM DESTAQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-25" value="PRODUTOS&lt;div&gt;MAIS VENDIDOS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-26" value="PRODUTOS&lt;div&gt;MENOR VALOR&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-27" value="PRODUTOS&lt;div&gt;MAIS AVALIADOS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX65RSDcZVieQ_6pZxmg-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UX65RSDcZVieQ_6pZxmg-22" target="Gp2LNQog8hY2vS4GWj-N-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2160" as="sourcePoint" />
+            <mxPoint x="90" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
