@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="ub3TqjXY3tPPMrQ7wsaH">
-    <mxGraphModel dx="2142" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3184" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,7 +109,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGZ9ggrxXx4jBzT0fz5f-18" value="COLABORADOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="VGZ9ggrxXx4jBzT0fz5f-18" value="CONSUMIDOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VGZ9ggrxXx4jBzT0fz5f-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VGZ9ggrxXx4jBzT0fz5f-18" edge="1">
@@ -169,10 +169,10 @@
         <mxCell id="Gp2LNQog8hY2vS4GWj-N-18" value="&lt;div&gt;&amp;nbsp;Perfil escolhido&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-325" y="600" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Gp2LNQog8hY2vS4GWj-N-21" value="COLABORADOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gp2LNQog8hY2vS4GWj-N-21" value="CONSUMIDOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-545" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gp2LNQog8hY2vS4GWj-N-22" value="FOMULARIO COLABORADOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gp2LNQog8hY2vS4GWj-N-22" value="FOMULARIO CONSUMIDOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-545" y="855" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gp2LNQog8hY2vS4GWj-N-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Gp2LNQog8hY2vS4GWj-N-21" target="Gp2LNQog8hY2vS4GWj-N-22" edge="1">
